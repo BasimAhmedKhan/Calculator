@@ -56,12 +56,8 @@
     color: white;
 }
 
-.c-btn{
+.c-btn, .zero-btn{
     width: 14rem;
-}
-
-.zero-btn{
-    width: 21rem;
 }
 
 @media only screen and (max-width: 500px) {
