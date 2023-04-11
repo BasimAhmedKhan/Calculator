@@ -1,0 +1,77 @@
+*{
+    font-family: "Century Gothic";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 28rem;
+    height: 35rem;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.result{
+    height: 5rem;
+    width: 28rem;
+    justify-content: end;
+}
+
+#result{
+    margin-right: 1rem;
+}
+
+.btn{
+    width: 7rem;
+    height: 6rem;
+    border: 0.1rem solid black;
+    background-color: #d8d9db;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 90%;
+}
+
+.btnCLick{
+    opacity: 75%;
+}
+
+.orange{
+    background-color: #df974c;
+    color: white;
+}
+
+.c-btn{
+    width: 14rem;
+}
+
+.zero-btn{
+    width: 21rem;
+}
+
+@media only screen and (max-width: 500px) {
+    :root {
+        font-size: 14px;
+    } 
+}
+
+@media only screen and (max-width: 400px) {
+    :root {
+        font-size: 12px;
+    }
+}
